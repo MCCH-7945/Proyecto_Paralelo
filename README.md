@@ -53,3 +53,23 @@ La versión paralela acelera:
 ---
 
 ## 📂 Estructura del proyecto
+
+.
+├── proyecto.cpp
+├── generar_datasets_kmeans_experimento.py
+├── visualizar_metricas_experimento.py
+├── visualizar_resultados_kmeans.py
+├── metricas_sinteticos_experimento.csv
+├── figuras/
+│ ├── tiempo.png
+│ ├── speedup.png
+│ └── eficiencia.png
+└── README.md
+
+
+---
+
+## 🛠️ Compilación
+
+Requiere OpenMP y OpenMPI instalados.
+
